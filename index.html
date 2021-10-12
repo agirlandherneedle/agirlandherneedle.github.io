@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A girl and her needle</title>
+        <script src="https://ink.js.org/ink.min.js"></script>
+    </head>
+
+    <body>
+        <script>
+
+            icon = {
+                x: 0, y: 0,
+                type: 'image',
+                source: 'icon.png',
+                width: window.innerWidth,
+            }
+
+            links = {
+                //  X and Y are changed in loop
+                contents: "<img width=25 src='logo.png'><img width=25 src='logo.png'><img width=25 src='logo.png'><img width=25 src='logo.png'>"
+            }
+
+            setTimeout(()=>{
+            forever = ()=>{
+                links.x = page.width/2 - 50; links.y = window.innerWidth/5.19
+            }
+            },5)
+            
+        </script>
+    </body>
+</html>
